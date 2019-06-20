@@ -12,6 +12,9 @@ Component({
     },
     readOnly:{
       type:Boolean
+    },
+    test:{
+      type:Object
     }
   },
 

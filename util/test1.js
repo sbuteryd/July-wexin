@@ -58,6 +58,5 @@ class HTTP {
 }
 
 export {
-    HTTP,
-    promisic
+    HTTP
 }

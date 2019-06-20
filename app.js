@@ -1,4 +1,10 @@
 App({
-  onLaunch: function () {
-  }
+  onLaunch: function() {}
 })
+
+// Promise Async / Await
+
+// wx.cloud({
+  
+//})
+

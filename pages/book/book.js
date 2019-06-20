@@ -22,13 +22,16 @@ Page({
   /**
    * 生命周期函数--监听页面加
    */
-  onLoad: function (optins) {
-    bookModel.getHotList()
-      .then(res => {
-        this.setData({
-          books:res
-        })
-      })
+  async onLoad(optins) {
+    const books = await bookModel.getHotList()
+    this.setData({
+      books
+    })
+      // .then(res => {
+      //   this.setData({
+      //     books:res
+      //   })
+      // })
     // id
   },
 
